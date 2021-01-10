@@ -13,7 +13,7 @@
     gather_facts: no
 
     vars:
-        #ansible_python_interpreter: "/usr/bin/env python3"
+        ansible_python_interpreter: "/usr/bin/env python3"
         search_range:
           start_col: 1 # Search only in the 1st column of the sheet
           end_col: 1
