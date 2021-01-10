@@ -17,12 +17,8 @@
           start_col: 1 # Search only in the 1st column of the sheet
           end_col: 1
           start_row: 2 # Serach from row #2 till the end of the sheet (no end_row is specified)
+        search_device: "R550"
           
-    vars_prompt:
-      - name: "search_device"
-        prompt: "Serach For "
-        private: no
-        
     tasks:
       - name: Looking-up Device IP
         search_excel:
